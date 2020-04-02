@@ -2,7 +2,9 @@
   "name": "covid",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
+    "type": "module",
     "start": "ts-node app/server.ts",
     "dev": "nodemon",
     "test": "jest",
@@ -11,8 +13,8 @@
     "serve": "NODE_ENV=production ts-node app/server.ts",
     "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o static/tailwind.min.css",
     "build:css": "postcss tailwind.config.css -o static/tailwind.min.css",
-    "build:images": "ts-node scripts/generate-images.ts",
-    "type": "module"
+    "build:images": "ts-node scripts/generate-images.ts"
+    
   },
   "dependencies": {
     "@types/pg": "^7.14.3",
