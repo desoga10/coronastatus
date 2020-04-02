@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "type": "module",
-    "start": "ts-node app/server.ts",
+    "start": "ts-node -r esm app/server.ts",
     "dev": "nodemon",
     "test": "jest",
     "lint": "eslint --ext .ts app/",
@@ -14,7 +14,6 @@
     "dev:css": "./node_modules/.bin/tailwind build tailwind.config.css -c tailwind.config.js -o static/tailwind.min.css",
     "build:css": "postcss tailwind.config.css -o static/tailwind.min.css",
     "build:images": "ts-node scripts/generate-images.ts"
-    
   },
   "dependencies": {
     "@types/pg": "^7.14.3",
@@ -26,6 +25,7 @@
     "crypto": "^1.0.1",
     "csv-express": "^1.2.2",
     "ejs": "^3.0.1",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-rate-limit": "^5.1.1",
     "i18n": "^0.8.6",
