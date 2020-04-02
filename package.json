@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@types/pg": "^7.14.3",
-    "@std/esm": "cjs",
     "autoprefixer": "^9.7.4",
     "body-parser": "^1.19.0",
     "connect-sqlite3": "^0.9.11",
