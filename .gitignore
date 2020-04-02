@@ -112,6 +112,5 @@ covid_db
 covid_db-shm
 covid_db-wal
 
-config.json
 
 build/

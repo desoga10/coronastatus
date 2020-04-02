@@ -1,0 +1,15 @@
+{
+  "BASE_URL": "coronastatus.ng",
+  "LANGUAGE": "en-NG",
+  "COUNTRY":  "Nigeria",
+  "MAP_CENTER": "9.077751,8.6774567,837190",  
+  "MAP_ZOOM": 6,  
+  "MAP_MAX_ZOOM":13,
+  "TWITTER": "coronastatusNG",
+  "ZIP_LENGTH": 6,
+  "ZIP_PLACEHOLDER": "123456",
+  "ZIP_GUIDE": false,
+  "REDIRECT_TO_GOVERNMENT": false,
+  "PASSCODE_LENGTH": 3,          
+  "DB_PATH": "./covid_db"
+}                
